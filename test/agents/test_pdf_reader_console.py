@@ -9,7 +9,7 @@ console = Console()
 if __name__ == "__main__":
     # Set API key cho Gemini
     if not os.environ.get("GOOGLE_API_KEY"):
-        os.environ["GOOGLE_API_KEY"] = "AIzaSyCKZZnv6g1CtLEFCipm05luOlQ-YL6JZjU"
+        os.environ["GOOGLE_API_KEY"] = "YOUR_API_HERE"
 
     pdf_path = r"D:\Checking\ReadPDF\VAI_AI Engineer – Robotics Perception.docx.pdf"
 
@@ -34,3 +34,4 @@ if __name__ == "__main__":
             console.print(Panel(answer, title="--> Agent", subtitle="Kết quả", style="magenta"))
         except Exception as e:
             console.print(f"[bold red]Lỗi: {e}[/bold red]")
+
