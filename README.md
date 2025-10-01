@@ -1,2 +1,3 @@
-# Read-and-Q-A-a-PDF-file
-This is talk about how to make a basic system AI for read a PDFs
+# Xây dựng hệ thống AI đơn giản cho phép hỏi đáp trong file PDF
+
+LLM sử dụng là Gemini
